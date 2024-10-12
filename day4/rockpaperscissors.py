@@ -50,3 +50,7 @@ elif CPU == PLAYER:
     print("It's a draw!")
 elif CPU == 2 and PLAYER == 0:
     print("You lose!")
+
+# I think if I were to build this in the future, I wouldn't try to make it number based.
+# Instead doing something like in this example:
+# https://www.codingal.com/coding-for-kids/blog/rock-paper-scissors-game-in-python/
