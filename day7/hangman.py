@@ -13,7 +13,7 @@ print(LOGO)
 PLACEHOLDER = ""
 CHOSEN_WORD = random.choice(WORD_LIST)
 GAME_OVER = False
-print("Debug Answer:" + CHOSEN_WORD)
+# print("Debug Answer:" + CHOSEN_WORD)
 
 WORD_LENGTH = len(CHOSEN_WORD) # int(CHOSEN_WORD.count("")) - 1
 for position in range(WORD_LENGTH):
