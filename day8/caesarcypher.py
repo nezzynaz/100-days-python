@@ -39,8 +39,11 @@ def decrypt(original_text, shift_amount):
     print(f"The decoded result is: {cipher_text}.") """
 
 def caesar(original_text, shift_amount, encode_or_decode):
+
+    decode_userfriendly = encode_or_decode.lower()
     output_text = ""
-    if encode_or_decode == "decode":
+
+    if decode_userfriendly == "decode":
         shift_amount *= -1
 
     for letter in original_text:
