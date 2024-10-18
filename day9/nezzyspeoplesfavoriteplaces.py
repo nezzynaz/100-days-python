@@ -17,6 +17,8 @@ def placeinput():
             print("Ok, returning to main menu.")
         elif quitinputting == "yes":
             print("Alright, who are we adding next?")
+        else:
+            print("Invalid input.")
 
 def showplaces(place_dict):
     for i in place_dict:
@@ -38,7 +40,7 @@ def main():
                 showplaces(places)
         elif menu == "input":
             placeinput()
-        elif menu == "exit":
+        elif menu == "exit" or "quit":
             online = False
             print("Thank you for using Nezzy's peoples favorite places. Goodbye!")
 
