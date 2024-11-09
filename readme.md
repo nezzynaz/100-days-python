@@ -10,6 +10,7 @@ Code was done using Python 3.13 and a requirements.txt is included for modules I
 
 ## Things to (maybe) return to
 - Blackjack game on day 11
+- Turtle race on day 19
 
 ## My review of the course
 Soon(TM)
