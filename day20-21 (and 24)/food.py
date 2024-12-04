@@ -11,11 +11,11 @@ class Food(Turtle): # By adding Turtle to the args, the food class can inherit f
         super().__init__() # This calls the inherited class inside of food. Not always required, but recommended.
         self.shape("circle")
         self.penup()
-        self.shapesize(0.65, 0.65)
+        self.shapesize(0.75, 0.75)
         self.color("green")
         self.speed("fastest")
         rx = random.randint(-280, 280)
-        ry = random.randint(-280, 280)
+        ry = random.randint(-280, 260)
         self.goto(rx, ry)
         self.refresh()
 
